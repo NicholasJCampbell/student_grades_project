@@ -25,7 +25,7 @@ I use Sci-kit Learn to make Linear Regression, SVM Regression, Lasso Regression,
 
 To run this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/NicholasJCampbell/library_comparisons.git`
+1. Clone the repository: `git clone https://github.com/NicholasJCampbell/student_grades_project.git`
 2. Install the necessary dependencies: `pip install -r requirements.txt`
 3. Explore the Jupyter notebooks or scripts in the respective folders.
 
