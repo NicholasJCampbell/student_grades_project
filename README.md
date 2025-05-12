@@ -4,7 +4,7 @@
 
 This project analyzes student data and create a machine learning model to predict third term student performance. 
 The primary goal is to predict G3 grades without using grades from the first two semesters (G1 and G2).
-I use Scitkit Learn to make Linear Regression, SVM Regression, Lasso Regression, Ridge Regression, Random Forest Regression, and stacking ensemble method.
+I use Sci-kit Learn to make Linear Regression, SVM Regression, Lasso Regression, Ridge Regression, Random Forest Regression, and stacking ensemble method.
 
 ### Conclusions/Summary
 
