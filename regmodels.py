@@ -18,17 +18,19 @@ from pandas.plotting import scatter_matrix
 
 
 
-class linreg_model():
+def linreg_model(x):
     lin_reg = LinearRegression()
     lin_reg.fit(X_train_transformed_with_grades, y_train)
     lin_reg.fit(X_train_transformed_without_grades, y_train)
+    return x
 
-class lassoreg_model():
+def lassoreg_model(x):
     lasso_reg = Lasso()
     lasso_params = {'alpha' : [0.05, 0.1, 0.3, 1, 3, 5],}
     lasso_grid = GridSearchCV(lasso_reg, lasso_params, cv=10, n_jobs=-1)
     lasso_grid_with = lasso_grid.fit(X_train_transformed_with_grades, y_train)
     lasso_grid_without = lasso_grid.fit(X_train_transformed_without_grades, y_train)
+    return x
 
 class svmreg_model():
     svm_reg = SVR()
